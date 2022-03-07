@@ -26,28 +26,6 @@ body {
     width: auto;
     text-align: center;
 }
-/*PRUEBA
-.icons-div {
-    background-color: rgb(255, 0, 0);
-    padding: 10px;
-    border-radius: 15px;
-    justify-content: center;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-.notion {
-    border: 0px;
-    height: 30px;
-    width: auto;  
-}
-.miro {
-    border: 0ch;
-    height: 30px; alto
-    width: auto;  ancho
-}*/
-
 
 #ajustes-svg {
     width:20px;
@@ -61,16 +39,9 @@ body {
     border-radius: 6px;
     box-shadow: 0px 0px 5px 3px rgb(0, 255, 154);
     animation-name: animacion-university;
-    animation-duration: 10s;
     animation-iteration-count: infinite;
 }
-/*
-@keyframes animacion-university {
-    0% {background:rgb(0, 213, 255)}
-    100% {background-image:linear-gradient( to right,rgb(255, 0, 0),black);
-    }
-}
-*/
+
 #horario{
     width:20px;
     height:20px;
@@ -95,29 +66,25 @@ body {
     border-radius: 6px;
     box-shadow: 0px 0px 5px 3px rgb(0, 255, 154);
 }
+
 #logo-add:hover {
-    background-image: linear-gradient(rgb(0, 0, 0),rgb(0,208,255));
-    border-radius: 20px;
+    background-color: rgb(63, 65, 64);
+    border-radius: 10px;
     transition: background-color 1000ms;
     transition: border-radius 200ms;
+    box-shadow: 0px 0px 5px 3px rgb(255, 255, 255);
 }
 
 #horario:hover {
-    background-image: linear-gradient(to left,cyan, black);
-    border-radius: 20px;
-    transition: background-color 1000ms;
+    background-color: rgb(63, 65, 64);
+    border-radius: 10px;
     transition: border-radius 200ms;
+    box-shadow: 0px 0px 5px 3px rgb(255, 255, 255);
 }
 
 #ajustes-svg:hover {
-    background-image: linear-gradient(cyan, black);
-    border-radius: 20px;
-    transition: background-color 1000ms;
+    background-color: rgb(63, 65, 64);
+    border-radius: 10px;
     transition: border-radius 200ms;
-}
-
-
-
-path {
-    fill:rgb(0, 255, 154);
+    box-shadow: 0px 0px 5px 3px rgb(255, 255, 255);
 }
