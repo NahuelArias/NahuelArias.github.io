@@ -60,6 +60,19 @@ body {
     box-shadow: 0px 0px 5px 3px rgb(0, 255, 154);
 }
 
+#add-apps {
+    width:20px;
+    height:20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.835);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(150px,180%);
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px 3px #00ff9a;
+}
+
 #logo-add:hover {
     background-color: rgb(63, 65, 64);
     border-radius: 10px;
@@ -78,6 +91,14 @@ body {
 #ajustes-svg:hover {
     background-color: rgb(63, 65, 64);
     border-radius: 10px;
+    transition: border-radius 200ms;
+    box-shadow: 0px 0px 5px 3px rgb(255, 255, 255);
+}
+
+#add-apps:hover {
+    background-color: rgb(63, 65, 64);
+    border-radius: 10px;
+    transition: background-color 1000ms;
     transition: border-radius 200ms;
     box-shadow: 0px 0px 5px 3px rgb(255, 255, 255);
 }
