@@ -19,21 +19,27 @@ body {
     width: auto;
     text-align: center;
 }
-
-#ajustes-svg {
-    width:20px;
-    height:20px;
-    padding: 20px;
-    background-color: rgb(0, 0, 0);
+/*PRUEBA
+.icons-div {
+    background-color: rgb(255, 0, 0);
+    padding: 10px;
+    border-radius: 15px;
+    justify-content: center;
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,180%);
-    border-radius: 6px;
-    box-shadow: 0px 0px 5px 3px rgb(0, 255, 154);
-    animation-name: animacion-university;
-    animation-iteration-count: infinite;
+    transform: translate(-50%,-50%);
 }
+.notion {
+    border: 0px;
+    height: 30px;
+    width: auto;  
+}
+.miro {
+    border: 0ch;
+    height: 30px; alto
+    width: auto;  ancho
+}*/
 
 #horario {
     width:20px;
@@ -43,10 +49,26 @@ body {
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-120px,180%);
+    transform: translate(-250%,180%);
     border-radius: 6px;
     box-shadow: 0px 0px 5px 3px rgb(0, 255, 154);
 }
+
+#ajustes-svg {
+    width:20px;
+    height:20px;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%,180%);
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px 3px rgb(0, 255, 154);
+    animation-name: animacion-university;
+    animation-iteration-count: infinite;
+}
+
 #logo-add {
     width:20px;
     height:20px;
@@ -55,9 +77,9 @@ body {
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(60px,180%);
+    transform: translate(50%,180%);
     border-radius: 6px;
-    box-shadow: 0px 0px 5px 3px rgb(0, 255, 154);
+    box-shadow: 0px 0px 5px 3px #00ff9a;
 }
 
 #add-apps {
@@ -68,18 +90,11 @@ body {
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(150px,180%);
+    transform: translate(200%,180%);
     border-radius: 6px;
     box-shadow: 0px 0px 5px 3px #00ff9a;
 }
 
-#logo-add:hover {
-    background-color: rgb(63, 65, 64);
-    border-radius: 10px;
-    transition: background-color 1000ms;
-    transition: border-radius 200ms;
-    box-shadow: 0px 0px 5px 3px rgb(255, 255, 255);
-}
 
 #horario:hover {
     background-color: rgb(63, 65, 64);
@@ -91,6 +106,14 @@ body {
 #ajustes-svg:hover {
     background-color: rgb(63, 65, 64);
     border-radius: 10px;
+    transition: border-radius 200ms;
+    box-shadow: 0px 0px 5px 3px rgb(255, 255, 255);
+}
+
+#logo-add:hover {
+    background-color: rgb(63, 65, 64);
+    border-radius: 10px;
+    transition: background-color 1000ms;
     transition: border-radius 200ms;
     box-shadow: 0px 0px 5px 3px rgb(255, 255, 255);
 }
