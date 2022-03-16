@@ -75,9 +75,9 @@ body {
     left: 50%;
     transform: translate(-120%,180%);
     border-radius: 6px;
-    box-shadow: 0px 0px 5px 3px val(--green-aqua);
     animation-name: animacion-university;
     animation-iteration-count: infinite;
+    box-shadow: 0px 0px 5px 3px val(--green-aqua);
 }
 
 #logo-add {
