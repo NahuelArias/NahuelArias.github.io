@@ -49,7 +49,7 @@ body {
     color: rgb(0, 255, 255);
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 20px;
-    box-shadow: 0px 0px 5px 3px var(--green-aqua);
+    box-shadow: 0px 0px 5px 3px var(--magenta);
 }
 
 #horario {
@@ -62,7 +62,7 @@ body {
     left: 50%;
     transform: translate(-260%,180%);
     border-radius: 6px;
-    box-shadow: 0px 0px 5px 3px var(--green-aqua);
+    box-shadow: 0px 0px 5px 3px var(--magenta);
 }
 
 #ajustes-svg {
@@ -75,7 +75,7 @@ body {
     left: 50%;
     transform: translate(-120%,180%);
     border-radius: 6px;
-    box-shadow: 0px 0px 5px 3px var(--green-aqua);
+    box-shadow: 0px 0px 5px 3px var(--magenta);
 }
 
 #logo-add {
@@ -88,7 +88,7 @@ body {
     left: 50%;
     transform: translate(20%,180%);
     border-radius: 6px;
-    box-shadow: 0px 0px 5px 3px var(--green-aqua);
+    box-shadow: 0px 0px 5px 3px var(--magenta);
 }
 
 #add-apps {
@@ -101,7 +101,7 @@ body {
     left: 50%;
     transform: translate(160%,180%);
     border-radius: 6px;
-    box-shadow: 0px 0px 5px 3px var(--green-aqua);
+    box-shadow: 0px 0px 5px 3px var(--magenta);
 }
 
 
